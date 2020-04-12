@@ -17,7 +17,6 @@ export const handlingHooks = (stack: ParsedLineType) => {
     let stackHandlingHook: string[] = [];
 
     stack.forEach(function (item) {
-        console.log('here handlingHooks');
         if (item === '(' && !startHook) {
             startHook = true;
         }

@@ -6,15 +6,19 @@
     "test": "jest",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "calc": "npx ts-node src/lesson2-calculator"
+    "calc": "npx ts-node src/lesson2-calculator",
+    "storybook": "start-storybook"
   },
   "keywords": [],
-  "author": "",
+  "author": "SergeyVityazev",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
+    "@storybook/react": "^5.3.18",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
     "babel-loader": "^8.1.0",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
@@ -23,6 +27,7 @@
     "react-dom": "^16.13.1",
     "style-loader": "^0.23.1",
     "ts node": "^8.8.2",
+    "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
@@ -31,12 +36,18 @@
     "@babel/preset-typescript": "^7.9.0",
     "@types/jest": "^25.2.1",
     "@types/node": "^13.11.1",
-    "@types/react": "^16.9.34",
-    "@types/react-dom": "^16.9.6",
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "typescript": "^3.8.3"
+    "development": "0.0.6"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyVityazev/OtusStartReactProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergeyVityazev/OtusStartReactProject/issues"
+  },
+  "homepage": "https://github.com/SergeyVityazev/OtusStartReactProject#readme"
 }
